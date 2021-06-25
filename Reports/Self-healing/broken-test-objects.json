@@ -1,0 +1,84 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PDOCrud/CreatePage/Save_button",
+      "brokenLocator": "//input[@id\u003d\u0027pdocrud_submit_BnJFNIuLmk_update_back\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PDOCrud/CreatePage/Save_button_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PDOCrud2/Page_PDOCrud Demo - CRUD application genera_eed3e9/input_Zip_pdocrud_submit_2XpBzSZTW9",
+      "brokenLocator": "//*[@type \u003d \u0027submit\u0027 and @id \u003d \u0027pdocrud_submit_2XpBzSZTW9\u0027 and @name \u003d \u0027pdocrud_submit_2XpBzSZTW9\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[10]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PDOCrud2/Page_PDOCrud Demo - CRUD application genera_eed3e9/input_Zip_pdocrud_submit_2XpBzSZTW9_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PDOCrud/CreatePage/button_back",
+      "brokenLocator": "//button[@id\u003d\u0027pdocrud_submit_BnJFNIuLmk_back\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Zip\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PDOCrud/CreatePage/button_back_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PDOCrud/HomePage/td_148",
+      "brokenLocator": "id(\"pdocrud-row-4\")/td[@class\u003d\"pdocrud-row-cols\"]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027TestQA\u0027])[1]/preceding::td[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PDOCrud/HomePage/td_148_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PDOCrud/ViewPage/Element_TestQA",
+      "brokenLocator": "//*[(text() \u003d \u0027TestQA\u0027 or . \u003d \u0027TestQA\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027pdocrud-table-view table-responsive\u0027]/table/tbody/tr[2]/td[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PDOCrud/ViewPage/Element_TestQA_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PDOCrud/ViewPage/Element_Rahman",
+      "brokenLocator": "//*[(text() \u003d \u0027Rahman\u0027 or . \u003d \u0027Rahman\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027pdocrud-table-view table-responsive\u0027]/table/tbody/tr[3]/td[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PDOCrud/ViewPage/Element_Rahman_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PDOCrud/ViewPage/Element_Jawa Barat",
+      "brokenLocator": "//*[(text() \u003d \u0027Jawa Barat\u0027 or . \u003d \u0027Jawa Barat\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027pdocrud-table-view table-responsive\u0027]/table/tbody/tr[6]/td[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PDOCrud/ViewPage/Element_Jawa Barat_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PDOCrud/EditPage/Save_and_back_button",
+      "brokenLocator": "//input[@id\u003d\u0027pdocrud_submit_BnJFNIuLmk_update_back\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PDOCrud/EditPage/Save_and_back_button_position.png"
+    }
+  ]
+}

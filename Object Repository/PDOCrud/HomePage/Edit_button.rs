@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Edit_button</name>
+   <tag></tag>
+   <elementGuidId>05c27949-6adc-4c43-ad7a-1ce112f45a79</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#pdocrud-row-4 > td.pdocrud-row-actions > a.pdocrud-actions.pdocrud-button.pdocrud-button-edit > i.fa.fa-pencil-square-o</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[@id='pdocrud-row-0']/td[10]/a[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-pencil-square-o</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pdocrud-row-4&quot;)/td[@class=&quot;pdocrud-row-actions&quot;]/a[@class=&quot;pdocrud-actions pdocrud-button pdocrud-button-edit&quot;]/i[@class=&quot;fa fa-pencil-square-o&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='pdocrud-row-4']/td[10]/a[2]/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[5]/td[10]/a[2]/i</value>
+   </webElementXpaths>
+</WebElementEntity>
